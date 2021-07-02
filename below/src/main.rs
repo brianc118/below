@@ -367,6 +367,12 @@ where
     }
 }
 
+fn verifyCorrectEnvironment() {
+    // Check cgroup2 presence
+
+    // Check psi presence
+}
+
 #[cfg(fbcode_build)]
 #[fbinit::main(disable_fatal_signals = all)]
 fn main(fb: FacebookInit) {
